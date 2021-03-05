@@ -57,8 +57,21 @@ header {
 	animation-delay: .4s;
 }
 
- .nav-link:hover{
-	background-color:  blue;
+ }
+/*hover*/
+ .nav-link{
+	text-decoration: none;
+	background: linear-gradient(to right,#ccc 50%,#FF5858 50%, #cc2e5d);
+	background-size: 200%;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+transition: 0.5s ease-out;
+}
+
+.nav-link:hover {
+	background-position: -100%;
+}
+/*hover end*/
 }
 
 /*about area*/
